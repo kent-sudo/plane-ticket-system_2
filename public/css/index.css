@@ -1,0 +1,139 @@
+.block {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: white;
+    height: 10%;
+}
+
+.block1 {
+    background-color: white;
+    padding: 10px;
+    height:150px;
+    max-height: 20%;
+    overflow: auto;
+    color: black;
+    border-radius: 10px;
+}
+.test1
+{
+    background-color: #00cc99;
+    margin-outside: 10px;
+    box-shadow: 0 0 5px rgba(0, 0.3,0.3, 0.3);
+    align-items: center;
+    justify-content: center;
+    border-radius: 10px;
+}
+
+.block2 {
+    background-color: white;
+    height: 10%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 10px;
+    border-radius: 10px;
+}
+
+.block3 {
+    background-color: white;
+    color: #ffffff;
+    padding: 10px;
+    max-height: 490px;
+    overflow: auto;
+    border-radius: 10px;
+}
+
+.block3 li {
+    background-color: #000000;
+    color: #ffffff;
+    padding: 10px;
+    margin-bottom: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.block3 button {
+    background-color: #ff0000;
+    color: #ffffff;
+    border: none;
+    padding: 5px 10px;
+
+}
+
+.block4 {
+    background-color: #f0f0f0;
+    height: 10%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+/* 调整间距 */
+.row {
+    margin-bottom: 5%;
+}
+.test
+{
+    margin-outside: 10px;
+    align-items: center;
+    text-align:center;
+    justify-content: center;
+    padding-top:10px ;
+    padding-bottom:1px ;
+    border-radius: 10px;
+    animation: loop 10s linear infinite;
+}
+@keyframes loop {
+    0% {
+        transform: translateX(100%);
+    }
+    100% {
+        transform: translateX(-100%);
+    }
+}
+.page-content
+{
+    height: 100%;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+h2
+{
+    text-align:center;
+}
+.test2
+{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    border-radius: 10px;
+}
+.test3
+{
+    padding-left: 0;
+}
+body {
+    height: 100%;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    overflow-x: hidden;
+}
+ul li
+{
+    border-radius: 10px;
+}
+ul li button
+{
+    border-radius: 10px;
+}
+.button-container {
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
